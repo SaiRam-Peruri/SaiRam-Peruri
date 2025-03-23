@@ -2,6 +2,8 @@
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=F7F7F7&center=true&vCenter=true&width=435&lines=Cloud+Engineer;AI+Enthusiast;Master's+in+CS+@+UMass+Lowell)
 
+![Profile Views](https://komarev.com/ghpvc/?username=sairam-peruri&label=PROFILE+VIEWS&color=blue&style=for-the-badge)
+
 ---
 
 ## 🚀 About Me
@@ -32,7 +34,7 @@
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="30" alt="MySQL"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" height="30" alt="AWS"  />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original.svg" height="30" alt="AWS"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="30" alt="Docker"  />
   <img width="12" />
@@ -50,6 +52,19 @@
 ![GitHub Streak](https://streak-stats.demolab.com/?user=SaiRam-Peruri&theme=dracula)
 
 ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=SaiRam-Peruri&theme=dracula)
+
+![GitHub Contribution Snake](https://github.com/sairam-peruri/sairam-peruri/blob/output/github-contribution-grid-snake.svg)
+
+---
+
+## 💡 Favorite Quote
+> "The best way to predict the future is to invent it." – Alan Kay
+
+---
+
+## 🌟 GitHub Badges
+![GitHub Stars](https://img.shields.io/github/stars/sairam-peruri?style=social)
+![GitHub Followers](https://img.shields.io/github/followers/sairam-peruri?style=social)
 
 ---
 
