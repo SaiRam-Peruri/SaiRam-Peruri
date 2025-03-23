@@ -53,7 +53,7 @@
 
 ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=SaiRam-Peruri&theme=dracula)
 
-![GitHub Contribution Snake](https://github.com/sairam-peruri/sairam-peruri/blob/output/github-contribution-grid-snake.svg)
+![GitHub Contribution Snake](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/sairam-peruri/sairam-peruri/main/loc.json&jq=.SUM.code&label=Lines+of+Code&color=purple)
 
 ---
 
