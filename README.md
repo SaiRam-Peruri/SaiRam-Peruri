@@ -55,7 +55,7 @@
 
 ## 🎯 Contact Me
 <div align="left">
-  <a href="https://github.com/sairamperuri" target="_blank">
+  <a href="https://github.com/sairam-peruri" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="35" alt="GitHub"  />
   </a>
   <a href="https://www.linkedin.com/in/sairamperuri" target="_blank">
