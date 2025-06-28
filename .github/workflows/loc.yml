@@ -2,10 +2,10 @@ name: Count Lines of Code
 
 on:
   push:
-    branches: [main]  # Trigger on push to main branch
+    branches: [main]
   schedule:
-    - cron: '0 0 * * *'  # Daily at midnight UTC
-  workflow_dispatch:  # Allow manual run from GitHub UI
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   loc:
@@ -21,7 +21,7 @@ jobs:
       - name: Count Lines of Code
         run: |
           cloc . --exclude-dir=.github --json > loc.json
-          cat loc.json  # Debug output
+          cat loc.json
 
       - name: Commit and Push loc.json
         env:
