@@ -20,11 +20,16 @@ jobs:
           persist-credentials: false  # ✅ Prevents default bot token from being reused
 
       - name: Install cloc
-        run: sudo apt-get install -y cloc
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y cloc
 
       - name: Count Lines of Code
+        run: cloc . --exclude-dir=.github --json > loc.json
+
+      - name: Normalize loc.json output
         run: |
-          cloc . --exclude-dir=.github --json > loc.json
+          python -c "from pathlib import Path; import json; loc_file = Path('loc.json'); data = json.loads(loc_file.read_text()); header = data.get('header', {}); [header.__setitem__(key, 0) for key in ('elapsed_seconds', 'files_per_second', 'lines_per_second') if key in header]; loc_file.write_text(json.dumps(data, indent=2, sort_keys=True) + '\n')"
           cat loc.json
 
       - name: Commit and Push loc.json
