@@ -1,21 +1,20 @@
 ### Hi there, I'm Sai Ram Peruri! 👋
-
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=00D4FF&center=true&vCenter=true&width=700&lines=Cloud+DevOps+Engineer;AI%2FML+Engineer;Terraform+%7C+Kubernetes+%7C+AWS;Master's+in+CS+%40+UMass+Lowell)
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/236220101-b5c9d09b-8d92-4f2f-82a5-9629d431e3ec.gif" width="600" alt="DevOps Terminal Animation"/>
+  <img src="terminal.gif" width="1000" alt="Custom DevOps Terminal Animation"/>
 </div>
 
 ---
 ## 🚀 About Me
 Cloud DevOps & AI/ML Engineer passionate about building scalable, intelligent systems!
 
-- 🎓 **Master's in Computer Science** from **UMass Lowell**
+- 🎓 **Master's in Computer Science** from **UMass Lowell** (Graduated 2025)
 - ☁️ Designing, deploying, and securing **cloud-native apps** on **AWS/GCP/Azure**
 - 🔁 **IaC expert** with **Terraform** + **CI/CD pipelines** (GitHub Actions, Jenkins)
 - 🐳 Containerizing & orchestrating with **Docker** & **Kubernetes**
 - 🧠 Building AI systems using **Python**, **TensorFlow**, **scikit-learn**
-- 💼 Former **System Engineer at TCS** → Now automation & platform engineering
+- 💼 Former **System Engineer at TCS** → Now focused on automation & platform engineering
 - 🚀 Based in **Atlanta, GA** | Ready for hybrid/remote opportunities
 
 ---
@@ -54,10 +53,10 @@ Cloud DevOps & AI/ML Engineer passionate about building scalable, intelligent sy
 ## 🔥 Featured Projects
 <div align="center">
 
-| Project | Description | Tech Stack |
-|---------|-------------|------------|
-| 🌐 **AI-Driven WebApp** | Predictive analytics dashboard with real-time model insights & visualizations | Flask • React • TensorFlow • AWS |
-| 🔐 **AWS Client VPN** | Enterprise-grade secure VPN with Terraform automation, SSO, MFA & cert management | Terraform • AWS • IAM • CloudWatch |
+| Project                  | Description                                                                 | Tech Stack                              |
+|--------------------------|-----------------------------------------------------------------------------|-----------------------------------------|
+| 🌐 **AI-Driven WebApp**  | Predictive analytics dashboard with real-time model insights & visualizations | Flask • React • TensorFlow • AWS       |
+| 🔐 **AWS Client VPN**    | Enterprise-grade secure VPN with Terraform automation, SSO, MFA & cert management | Terraform • AWS • IAM • CloudWatch     |
 | ⚙️ **Cloud Infra Monitoring** | Real-time Linux health monitoring with automated Slack alerts & dashboards | Python • Bash • AWS CloudWatch • Slack API |
 
 [👉 View All Projects](https://github.com/sairam-peruri?tab=repositories)
