@@ -1,12 +1,12 @@
 {
   "Markdown": {
-    "blank": 16,
+    "blank": 15,
     "code": 90,
     "comment": 0,
     "nFiles": 1
   },
   "SUM": {
-    "blank": 16,
+    "blank": 15,
     "code": 90,
     "comment": 0,
     "nFiles": 1
@@ -18,6 +18,6 @@
     "files_per_second": 0,
     "lines_per_second": 0,
     "n_files": 1,
-    "n_lines": 106
+    "n_lines": 105
   }
 }
