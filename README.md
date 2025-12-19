@@ -2,7 +2,7 @@
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=00D4FF&center=true&vCenter=true&width=700&lines=Cloud+DevOps+Engineer;AI%2FML+Engineer;Terraform+%7C+Kubernetes+%7C+AWS;Master's+in+CS+%40+UMass+Lowell)
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/221352975-94759904-aa4c-4032-a8ab-b546efb9c478.gif" width="600" alt="Guy Working Animation"/>
+  <img src="https://media.tenor.com/GfSX-u7VGM4AAAAM/coding.gif" width="600" alt="Guy Coding Animation"/>
 </div>
 
 ---
