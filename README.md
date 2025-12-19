@@ -2,7 +2,7 @@
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=00D4FF&center=true&vCenter=true&width=700&lines=Cloud+DevOps+Engineer;AI%2FML+Engineer;Terraform+%7C+Kubernetes+%7C+AWS;Master's+in+CS+%40+UMass+Lowell)
 
 <div align="center">
-  <img src="terminal.gif" width="1000" alt="Custom DevOps Terminal Animation"/>
+  <img src="https://user-images.githubusercontent.com/74038190/221352975-94759904-aa4c-4032-a8ab-b546efb9c478.gif" width="600" alt="Guy Working Animation"/>
 </div>
 
 ---
@@ -53,10 +53,10 @@ Cloud DevOps & AI/ML Engineer passionate about building scalable, intelligent sy
 ## 🔥 Featured Projects
 <div align="center">
 
-| Project                  | Description                                                                 | Tech Stack                              |
-|--------------------------|-----------------------------------------------------------------------------|-----------------------------------------|
-| 🌐 **AI-Driven WebApp**  | Predictive analytics dashboard with real-time model insights & visualizations | Flask • React • TensorFlow • AWS       |
-| 🔐 **AWS Client VPN**    | Enterprise-grade secure VPN with Terraform automation, SSO, MFA & cert management | Terraform • AWS • IAM • CloudWatch     |
+| Project | Description | Tech Stack |
+|---------|-------------|------------|
+| 🌐 **AI-Driven WebApp** | Predictive analytics dashboard with real-time model insights & visualizations | Flask • React • TensorFlow • AWS |
+| 🔐 **AWS Client VPN** | Enterprise-grade secure VPN with Terraform automation, SSO, MFA & cert management | Terraform • AWS • IAM • CloudWatch |
 | ⚙️ **Cloud Infra Monitoring** | Real-time Linux health monitoring with automated Slack alerts & dashboards | Python • Bash • AWS CloudWatch • Slack API |
 
 [👉 View All Projects](https://github.com/sairam-peruri?tab=repositories)
