@@ -15,7 +15,7 @@ Cloud DevOps & AI/ML Engineer passionate about building scalable, intelligent sy
 - 🐳 Containerizing & orchestrating with **Docker** & **Kubernetes**
 - 🧠 Building AI systems using **Python**, **TensorFlow**, **scikit-learn**
 - 💼 Former **System Engineer at TCS** → Now focused on automation & platform engineering
-- 🚀 Based in **Atlanta, GA** | Ready for hybrid/remote opportunities
+- 🚀 Based in **Lowell, MA** | Ready for hybrid/remote opportunities
 
 ---
 ## 🛠️ Tech Arsenal
