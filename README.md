@@ -1,5 +1,5 @@
 ### Hi there, I'm Sai Ram Peruri! 👋
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=00D4FF&center=true&vCenter=true&width=700&lines=Cloud+DevOps+Engineer;AI%2FML+Engineer;Terraform+%7C+Kubernetes+%7C+AWS;Master's+in+CS+%40+UMass+Lowell)
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=00D4FF&center=true&vCenter=true&width=700&lines=AI+Solutions+Engineer;Former+Cloud+DevOps+Engineer;LLMs+%7C+RAG+%7C+Agents;Python+%7C+TypeScript+%7C+AWS+%7C+GCP)
 
 <div align="center">
   <img src="https://media.tenor.com/GfSX-u7VGM4AAAAM/coding.gif" width="600" alt="Guy Coding Animation"/>
@@ -7,14 +7,14 @@
 
 ---
 ## 🚀 About Me
-Cloud DevOps & AI/ML Engineer passionate about building scalable, intelligent systems!
+AI Solutions Engineer (and former Cloud DevOps Engineer) building practical, production-minded AI systems — from RAG pipelines and LLM apps to the cloud infrastructure that runs them.
 
 - 🎓 **Master's in Computer Science** from **UMass Lowell** (Graduated 2025)
 - ☁️ Designing, deploying, and securing **cloud-native apps** on **AWS/GCP/Azure**
 - 🔁 **IaC expert** with **Terraform** + **CI/CD pipelines** (GitHub Actions, Jenkins)
 - 🐳 Containerizing & orchestrating with **Docker** & **Kubernetes**
 - 🧠 Building AI systems using **Python**, **TensorFlow**, **scikit-learn**
-- 💼 Former **System Engineer at TCS** → Now focused on automation & platform engineering
+- 💼 Focused on **AI solutions** — RAG systems, LLM apps, and intelligent automation · Former **System Engineer at TCS**
 - 🚀 Based in **Lowell, MA** | Ready for hybrid/remote opportunities
 
 ---
