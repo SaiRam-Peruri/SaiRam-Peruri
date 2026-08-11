@@ -57,7 +57,7 @@ AI Solutions Engineer (and former Cloud DevOps Engineer) building practical, pro
 |---------|-------------|------------|
 | 🧠 **RAG-PROJECT** | Full Retrieval-Augmented Generation pipeline over custom documents — chunking, embeddings, vector search & grounded LLM answers | Python • LLMs • Vector DB • RAG |
 | ⚡ **RAG-API** | Production-style REST API that serves RAG-powered responses, wrapping retrieval + LLM generation behind clean endpoints | Python • FastAPI • LLMs • RAG |
-| 🎙️ **Voice-Cost** | AI voice application with memory that responds naturally and tracks token/API cost per interaction | Python • LLMs • Speech • Cost-tracking |
+| 🎙️ **Voice-Cost** | Voice + receipt AI agent that logs an expense from a voice note and a photo — Gemini transcribes and extracts amount, vendor, date & category | TypeScript • React • Gemini • Firebase |
 
 [👉 View All Projects](https://github.com/sairam-peruri?tab=repositories)
 
