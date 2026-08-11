@@ -55,9 +55,9 @@ AI Solutions Engineer (and former Cloud DevOps Engineer) building practical, pro
 
 | Project | Description | Tech Stack |
 |---------|-------------|------------|
-| 🌐 **AI-Driven WebApp** | Predictive analytics dashboard with real-time model insights & visualizations | Flask • React • TensorFlow • AWS |
-| 🔐 **AWS Client VPN** | Enterprise-grade secure VPN with Terraform automation, SSO, MFA & cert management | Terraform • AWS • IAM • CloudWatch |
-| ⚙️ **Cloud Infra Monitoring** | Real-time Linux health monitoring with automated Slack alerts & dashboards | Python • Bash • AWS CloudWatch • Slack API |
+| 🧠 **RAG-PROJECT** | Full Retrieval-Augmented Generation pipeline over custom documents — chunking, embeddings, vector search & grounded LLM answers | Python • LLMs • Vector DB • RAG |
+| ⚡ **RAG-API** | Production-style REST API that serves RAG-powered responses, wrapping retrieval + LLM generation behind clean endpoints | Python • FastAPI • LLMs • RAG |
+| 🎙️ **Voice-Cost** | AI voice application with memory that responds naturally and tracks token/API cost per interaction | Python • LLMs • Speech • Cost-tracking |
 
 [👉 View All Projects](https://github.com/sairam-peruri?tab=repositories)
 
