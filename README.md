@@ -36,7 +36,7 @@ motto:     "A model is a demo. A pipeline is a product."
 
 > 🎯 I spent my early career making infrastructure boringly reliable.
 > Now I point that same discipline at AI — every project below is one I built end to end:
-> **ingestion → retrieval → generation → deploy.**
+> **ingest → retrieve → generate → deploy.**
 
 ---
 
@@ -48,11 +48,12 @@ motto:     "A model is a demo. A pipeline is a product."
 <p>
 <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
 <img src="https://img.shields.io/badge/Google%20Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white"/>
+<img src="https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logo=lightning&logoColor=white"/>
 <img src="https://img.shields.io/badge/OpenRouter-6566F1?style=for-the-badge&logo=openai&logoColor=white"/>
 <img src="https://img.shields.io/badge/RAG-00A67E?style=for-the-badge&logo=databricks&logoColor=white"/>
 <img src="https://img.shields.io/badge/ChromaDB-FF6F00?style=for-the-badge&logo=chromatic&logoColor=white"/>
 <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
+<img src="https://img.shields.io/badge/PyTorch%20%2F%20Detectron2-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
 <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
 <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
 <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
@@ -78,6 +79,7 @@ motto:     "A model is a demo. A pipeline is a product."
 <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white"/>
 <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white"/>
 <img src="https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white"/>
+<img src="https://img.shields.io/badge/Terragrunt-5835CC?style=for-the-badge&logo=terraform&logoColor=white"/>
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
 <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
 <img src="https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white"/>
@@ -95,7 +97,7 @@ motto:     "A model is a demo. A pipeline is a product."
 <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white"/>
 <img src="https://img.shields.io/badge/Firebase-DD2C00?style=for-the-badge&logo=firebase&logoColor=white"/>
 <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white"/>
 </p>
 
 </div>
@@ -107,11 +109,64 @@ motto:     "A model is a demo. A pipeline is a product."
 | 🚀 Project | 💡 What it actually does | 🧰 Stack |
 | :--- | :--- | :--- |
 | **[🧠 RAG-PROJECT](https://github.com/SaiRam-Peruri/RAG-PROJECT)** | Automates **federal proposal drafting** — ingests RFPs and past proposals into ChromaDB, then generates cited sections, compliance matrices and requirement trackers | `Python` `OpenAI` `ChromaDB` |
-| **[⚡ RAG-API](https://github.com/SaiRam-Peruri/RAG-API)** | FastAPI service that exposes a **1,500+ document** knowledge base — query, add, health and stats endpoints, ready for Render / Fly / Railway | `Python` `FastAPI` `ChromaDB` |
+| **[⚡ RAG-API](https://github.com/SaiRam-Peruri/RAG-API)** | FastAPI service exposing a **1,500+ document** knowledge base — query, add, health and stats endpoints, deployable on Render / Fly / Railway | `Python` `FastAPI` `ChromaDB` |
 | **[🎙️ Voice-Cost](https://github.com/SaiRam-Peruri/Voice-Cost)** | Slack / WhatsApp agent that turns a **voice note + a receipt photo** into a structured expense entry, automatically | `TypeScript` `Gemini` `Node.js` |
 | **[🗣️ alexa_project](https://github.com/SaiRam-Peruri/alexa_project)** | Ask Alexa how your laptop is doing — CPU, memory, disk and uptime streamed every 5s from a Windows agent to Flask on Cloud Run | `Python` `Flask` `GCP` |
 | **[🔬 breast_cancer_app](https://github.com/SaiRam-Peruri/breast_cancer_app)** | Flask app running **Detectron2** over mammograms — bounding boxes, confidence scores and downloadable annotations *(research / education only)* | `Python` `Detectron2` `Flask` |
 | **[🛠️ DevopsProject](https://github.com/SaiRam-Peruri/DevopsProject)** | A Go web app wired through an entire cloud-native pipeline: Docker → Kubernetes + Helm → Terraform on GCP → GitHub Actions | `Go` `K8s` `Terraform` |
+
+---
+
+## 🗂️ Repository Map
+
+<details open>
+<summary><b>🤖 AI, LLMs &amp; RAG</b></summary>
+
+| Repo | One-liner |
+| :--- | :--- |
+| [RAG-PROJECT](https://github.com/SaiRam-Peruri/RAG-PROJECT) | RAG system for federal proposal drafting with citations and compliance matrices |
+| [RAG-API](https://github.com/SaiRam-Peruri/RAG-API) | FastAPI retrieval service over a ChromaDB knowledge base |
+| [Voice-Cost](https://github.com/SaiRam-Peruri/Voice-Cost) | Voice + receipt expense agent for Slack / WhatsApp, powered by Gemini |
+| [cancer-app](https://github.com/SaiRam-Peruri/cancer-app) | Turns breast-health worries into a structured letter for your doctor (Groq / Llama 3.3) |
+
+</details>
+
+<details>
+<summary><b>🔬 Machine Learning &amp; Data Science</b></summary>
+
+| Repo | One-liner |
+| :--- | :--- |
+| [breast_cancer_app](https://github.com/SaiRam-Peruri/breast_cancer_app) | Flask front end serving Detectron2 mammogram predictions |
+| [breast-cancer-detection](https://github.com/SaiRam-Peruri/breast-cancer-detection) | Detectron2 training pipeline on CBIS-DDSM with AWS GPU scripts |
+| [Predicting-Exam-Grade](https://github.com/SaiRam-Peruri/Predicting-Exam-Grade-using-Multimodal-Physiological-data) | Predicting exam performance from multimodal wearable / physiological signals |
+
+</details>
+
+<details>
+<summary><b>☁️ Cloud, Infrastructure as Code &amp; DevOps</b></summary>
+
+| Repo | One-liner |
+| :--- | :--- |
+| [Terraform_GCP_Resources-Blueprints](https://github.com/SaiRam-Peruri/Terraform_GCP_Resources-Blueprints) | Reusable, production-grade Terraform modules across compute, network, storage, IAM |
+| [gcp-serverless-infra](https://github.com/SaiRam-Peruri/gcp-serverless-infra) | Terraform + Terragrunt serverless stack across dev / stage / prod |
+| [Terraform_GCP_OPENAI_FIRST_PROJECT](https://github.com/SaiRam-Peruri/Terraform_GCP_OPENAI_FIRST_PROJECT) | Early Terraform-on-GCP build wired up with the OpenAI API |
+| [DevopsProject](https://github.com/SaiRam-Peruri/DevopsProject) | Go app taken from Docker to Helm to Terraform to GitHub Actions |
+| [eks-2048-game](https://github.com/SaiRam-Peruri/eks-2048-game) | 2048 on AWS EKS with Fargate and the AWS Load Balancer Controller |
+| [pacerpro-assignment](https://github.com/SaiRam-Peruri/pacerpro-assignment) | Self-healing EC2: Sumo Logic alert → Lambda reboot → SNS notification, all in Terraform |
+
+</details>
+
+<details>
+<summary><b>🧩 Full-Stack &amp; Product Builds</b></summary>
+
+| Repo | One-liner |
+| :--- | :--- |
+| [secure-note](https://github.com/SaiRam-Peruri/secure-note) | Encrypted, self-destructing notes with one-time links, on Cloud Run |
+| [spotify](https://github.com/SaiRam-Peruri/spotify) | Flask + Spotipy playlist builder with per-track tempo control |
+| [spin-treat-roulette](https://github.com/SaiRam-Peruri/spin-treat-roulette) | Spin a wheel of cuisines and discover nearby restaurants |
+| [rockstar-resume](https://github.com/SaiRam-Peruri/rockstar-resume) | Animated React + Tailwind portfolio and resume site |
+
+</details>
 
 <div align="center">
   <a href="https://github.com/SaiRam-Peruri?tab=repositories"><img src="https://img.shields.io/badge/📂%20Browse%20every%20repository-00D4FF?style=for-the-badge&logoColor=white" alt="all repos"/></a>
@@ -123,26 +178,28 @@ motto:     "A model is a demo. A pipeline is a product."
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=SaiRam-Peruri&show_icons=true&theme=dracula&hide_border=true&bg_color=0D1117&title_color=00D4FF&icon_color=7B2CBF&text_color=C9D1D9&include_all_commits=true&count_private=true" alt="stats"/>
-<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SaiRam-Peruri&layout=compact&theme=dracula&hide_border=true&bg_color=0D1117&title_color=00D4FF&text_color=C9D1D9&langs_count=8&hide=jupyter%20notebook,html,css,scss" alt="top langs"/>
+<img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SaiRam-Peruri&theme=github_dark" alt="profile details"/>
 
-<img width="90%" src="https://streak-stats.demolab.com?user=SaiRam-Peruri&theme=dracula&hide_border=true&background=0D1117&ring=00D4FF&fire=7B2CBF&currStreakLabel=00D4FF" alt="streak"/>
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=SaiRam-Peruri&theme=github_dark" alt="repos per language"/>
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=SaiRam-Peruri&theme=github_dark" alt="most commit language"/>
+
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=SaiRam-Peruri&theme=github_dark" alt="stats"/>
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=SaiRam-Peruri&theme=github_dark&utcOffset=-5" alt="productive time"/>
 
 <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=SaiRam-Peruri&theme=react-dark&bg_color=0D1117&color=00D4FF&line=7B2CBF&point=FFFFFF&area=true&hide_border=true" alt="activity graph"/>
 
-<img width="98%" src="https://github-profile-trophy.vercel.app/?username=SaiRam-Peruri&theme=dracula&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="trophies"/>
-
 </div>
 
-> 📌 Jupyter, HTML and CSS are hidden from the language stats — the ML logic lives in plain Python.
+> 📌 Yes, **HCL** is high in the language charts — that is Terraform. The DevOps years never really leave you. 😄
 
 ---
 
-## 🎯 What I'm Working On Next
+## 🎯 What I'm Building Next
 
 - 🧩 **Agentic RAG** — query routing, re-ranking and evaluation loops instead of one-shot retrieval
 - 📈 **Evals + observability** for LLM apps: groundedness, latency and cost per request
 - ☁️ **Reusable Terraform modules** for AI workloads (vector stores, inference endpoints, secrets)
+- 🔓 Opening up a few private builds — a multi-model chat app, an AI journaling tool and a logistics tracker
 - 🤝 Open to **AI Solutions / AI Platform / ML Engineering** roles — hybrid or remote
 
 ---
@@ -152,6 +209,7 @@ motto:     "A model is a demo. A pipeline is a product."
 <div align="center">
 
 ### *"The best way to predict the future is to invent it."*
+
 **— Alan Kay**
 
 </div>
