@@ -119,57 +119,43 @@ motto:     "A model is a demo. A pipeline is a product."
 
 ## 🗂️ Repository Map
 
+> Everything public, grouped by what it actually does. A few more builds live in private repos — happy to walk through those on request.
+
 <details open>
 <summary><b>🤖 AI, LLMs &amp; RAG</b></summary>
 
-| Repo | One-liner |
+| Repo | What it does |
 | :--- | :--- |
-| [RAG-PROJECT](https://github.com/SaiRam-Peruri/RAG-PROJECT) | RAG system for federal proposal drafting with citations and compliance matrices |
-| [RAG-API](https://github.com/SaiRam-Peruri/RAG-API) | FastAPI retrieval service over a ChromaDB knowledge base |
-| [Voice-Cost](https://github.com/SaiRam-Peruri/Voice-Cost) | Voice + receipt expense agent for Slack / WhatsApp, powered by Gemini |
-| [cancer-app](https://github.com/SaiRam-Peruri/cancer-app) | Turns breast-health worries into a structured letter for your doctor (Groq / Llama 3.3) |
+| **[🧠 RAG-PROJECT](https://github.com/SaiRam-Peruri/RAG-PROJECT)** | Retrieval-augmented drafting for federal proposals — ingests RFPs and past bids into ChromaDB, returns cited sections and compliance matrices |
+| **[⚡ RAG-API](https://github.com/SaiRam-Peruri/RAG-API)** | FastAPI service that exposes the ChromaDB knowledge base — query, add, health and stats endpoints |
+| **[🎙️ Voice-Cost](https://github.com/SaiRam-Peruri/Voice-Cost)** | Slack / WhatsApp agent that turns a voice note plus a receipt photo into a structured expense entry (Gemini) |
+| **[🗣️ alexa_project](https://github.com/SaiRam-Peruri/alexa_project)** | Custom Alexa skill reading live CPU, memory, disk and uptime from a Windows agent streaming to Cloud Run |
 
 </details>
 
 <details>
 <summary><b>🔬 Machine Learning &amp; Data Science</b></summary>
 
-| Repo | One-liner |
+| Repo | What it does |
 | :--- | :--- |
-| [breast_cancer_app](https://github.com/SaiRam-Peruri/breast_cancer_app) | Flask front end serving Detectron2 mammogram predictions |
-| [breast-cancer-detection](https://github.com/SaiRam-Peruri/breast-cancer-detection) | Detectron2 training pipeline on CBIS-DDSM with AWS GPU scripts |
-| [Predicting-Exam-Grade](https://github.com/SaiRam-Peruri/Predicting-Exam-Grade-using-Multimodal-Physiological-data) | Predicting exam performance from multimodal wearable / physiological signals |
+| **[🩺 breast_cancer_app](https://github.com/SaiRam-Peruri/breast_cancer_app)** | Flask app running Detectron2 over mammograms — bounding boxes, confidence scores, downloadable annotated images |
+| **[📈 Exam-Grade Prediction](https://github.com/SaiRam-Peruri/Predicting-Exam-Grade-using-Multimodal-Physiological-data)** | Wearable physiological signals modelled against real-world exam performance |
 
 </details>
 
 <details>
 <summary><b>☁️ Cloud, Infrastructure as Code &amp; DevOps</b></summary>
 
-| Repo | One-liner |
+| Repo | What it does |
 | :--- | :--- |
-| [Terraform_GCP_Resources-Blueprints](https://github.com/SaiRam-Peruri/Terraform_GCP_Resources-Blueprints) | Reusable, production-grade Terraform modules across compute, network, storage, IAM |
-| [gcp-serverless-infra](https://github.com/SaiRam-Peruri/gcp-serverless-infra) | Terraform + Terragrunt serverless stack across dev / stage / prod |
-| [Terraform_GCP_OPENAI_FIRST_PROJECT](https://github.com/SaiRam-Peruri/Terraform_GCP_OPENAI_FIRST_PROJECT) | Early Terraform-on-GCP build wired up with the OpenAI API |
-| [DevopsProject](https://github.com/SaiRam-Peruri/DevopsProject) | Go app taken from Docker to Helm to Terraform to GitHub Actions |
-| [eks-2048-game](https://github.com/SaiRam-Peruri/eks-2048-game) | 2048 on AWS EKS with Fargate and the AWS Load Balancer Controller |
-| [pacerpro-assignment](https://github.com/SaiRam-Peruri/pacerpro-assignment) | Self-healing EC2: Sumo Logic alert → Lambda reboot → SNS notification, all in Terraform |
-
-</details>
-
-<details>
-<summary><b>🧩 Full-Stack &amp; Product Builds</b></summary>
-
-| Repo | One-liner |
-| :--- | :--- |
-| [secure-note](https://github.com/SaiRam-Peruri/secure-note) | Encrypted, self-destructing notes with one-time links, on Cloud Run |
-| [spotify](https://github.com/SaiRam-Peruri/spotify) | Flask + Spotipy playlist builder with per-track tempo control |
-| [spin-treat-roulette](https://github.com/SaiRam-Peruri/spin-treat-roulette) | Spin a wheel of cuisines and discover nearby restaurants |
-| [rockstar-resume](https://github.com/SaiRam-Peruri/rockstar-resume) | Animated React + Tailwind portfolio and resume site |
+| **[🛠️ DevopsProject](https://github.com/SaiRam-Peruri/DevopsProject)** | Go web app wired through the whole pipeline: Docker → Kubernetes + Helm → Terraform on GCP → GitHub Actions |
+| **[🌩️ gcp-serverless-infra](https://github.com/SaiRam-Peruri/gcp-serverless-infra)** | Terraform + Terragrunt serverless stack: Pub/Sub-triggered Functions, Scheduler, Cloud Run and IAM across dev/stage/prod |
+| **[📐 Terraform GCP Blueprints](https://github.com/SaiRam-Peruri/Terraform_GCP_Resources-Blueprints)** | Reusable, production-grade Terraform modules for GCP compute, networking, storage, databases, serverless, IAM and monitoring |
 
 </details>
 
 <div align="center">
-  <a href="https://github.com/SaiRam-Peruri?tab=repositories"><img src="https://img.shields.io/badge/📂%20Browse%20every%20repository-00D4FF?style=for-the-badge&logoColor=white" alt="all repos"/></a>
+  <a href="https://github.com/SaiRam-Peruri?tab=repositories"><img src="https://img.shields.io/badge/Browse_all_repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="all repositories"/></a>
 </div>
 
 ---
